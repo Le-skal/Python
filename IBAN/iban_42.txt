@@ -1,0 +1,4 @@
+Code banque	300661
+Code agence	04640
+Numero de compte bancaire	002073130
+Chiffre d'indicatif national	156

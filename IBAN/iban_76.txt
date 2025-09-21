@@ -1,0 +1,4 @@
+Code banque	1174
+Code agence	9000
+Numero de compte bancaire	010002314670
+Chiffre d'indicatif national	438
