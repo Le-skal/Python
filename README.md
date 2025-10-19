@@ -1,17 +1,4 @@
-Parfait — voici ton **README complet en français**, déjà mis en forme pour être placé dans
-`cours/Python/README.md`, avec **les chemins d’images correctement intégrés** vers les fichiers que tu mentionnes.
-Tu pourras copier-coller ce texte directement.
-
----
-
-# Rapport synthétique — Trois projets Python
-
-## Vue d’ensemble
-
-Ce rapport présente trois projets Python distincts, en mettant l’accent sur leur **méthodologie**, leurs **résultats**, ainsi qu’une **analyse et des commentaires**.
-Chaque projet illustre des compétences appliquées en **analyse de données**, **algorithmique** et **automatisation web**.
-
----
+# Projets Python
 
 ## **Projet 1 : Analyseur et visualiseur d’ADN**
 
@@ -34,7 +21,7 @@ Chaque projet illustre des compétences appliquées en **analyse de données**, 
 * **Fichier d’entrée :**
 
   ```
-  cours/Python/ADN/DNAFile.txt
+  Python/ADN/DNAFile.txt
   ```
 
   Ce fichier contient l’ensemble des séquences ADN analysées.
@@ -52,17 +39,15 @@ Chaque projet illustre des compétences appliquées en **analyse de données**, 
 
   ![Résultats de l’analyse ADN](ADN/resultats.png)
 
-### **Commentaires / Analyse**
+### **Commentaires**
 
 * **Forces :**
 
-  * Algorithme simple et efficace basé sur l’analyse de chaînes de caractères.
   * Représentation graphique claire et lisible.
   * Gestion robuste des caractères invalides et des divisions par zéro.
 
 * **Axes d’amélioration :**
 
-  * Intégrer le **taux de contenu GC**, indicateur biologique pertinent.
   * Ajouter des **analyses statistiques** ou comparatives entre séquences.
   * Mettre en place une **gestion d’erreurs** si le fichier source est manquant.
 
@@ -101,7 +86,7 @@ Des tests d’appel à une **API de validation IBAN** ont également été effec
 * **Requête invalide (400 Bad Request)**
   ![IBAN invalide](IBAN/invalide.png)
 
-### **Commentaires / Analyse**
+### **Commentaires**
 
 * **Forces :**
 
@@ -145,7 +130,7 @@ Des tests d’appel à une **API de validation IBAN** ont également été effec
   | --------- | -------------------- | ------- | -------------- | ----------------- |
   | The Grill | American, Steakhouse | 4.5     | (213) 555-9876 | Ouvert maintenant |
 
-### **Commentaires / Analyse**
+### **Commentaires**
 
 * **Forces :**
 
@@ -158,16 +143,6 @@ Des tests d’appel à une **API de validation IBAN** ont également été effec
   * Ajouter une **gestion des exceptions** en cas d’éléments manquants ou d’erreurs réseau.
   * Activer le **mode sans interface graphique (headless)** pour de meilleures performances.
   * Respecter les **bonnes pratiques de scraping** (vérification du fichier `robots.txt`).
-
----
-
-## **Synthèse générale**
-
-| Projet                   | Domaine               | Méthodologie                      | Résultat            | Points forts                   | Axes d’amélioration                      |
-| ------------------------ | --------------------- | --------------------------------- | ------------------- | ------------------------------ | ---------------------------------------- |
-| **Analyseur ADN**        | Bio-informatique      | Analyse de motifs + visualisation | Graphique en barres | Visualisation claire et simple | Ajouter taux GC et gestion d’erreurs     |
-| **Générateur IBAN**      | Fintech / Algorithmes | Traitement de chaînes + mod97     | IBAN complet        | Calcul exact et conforme       | Ajouter validation API et interface      |
-| **Scraper Yellow Pages** | Automatisation Web    | Selenium + BeautifulSoup          | Fichier CSV         | Extraction structurée          | Gestion d’erreurs et éthique du scraping |
 
 ---
 
@@ -184,9 +159,3 @@ Les prochaines étapes pourraient inclure :
 
 * Une **gestion d’erreurs** plus robuste
 * Une **documentation et des tests unitaires**
-* L’intégration d’**API externes** ou d’interfaces graphiques pour une utilisation plus interactive
-
----
-
-Souhaites-tu que j’ajoute également une courte **introduction générale** en haut (par exemple, présentant le contexte du cours Python et les objectifs pédagogiques du dossier) ?
-Je peux aussi t’ajouter la table des matières automatique du README si tu veux.
