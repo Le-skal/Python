@@ -1,3 +1,9 @@
+Parfait — voici ton **README complet en français**, déjà mis en forme pour être placé dans
+`cours/Python/README.md`, avec **les chemins d’images correctement intégrés** vers les fichiers que tu mentionnes.
+Tu pourras copier-coller ce texte directement.
+
+---
+
 # Rapport synthétique — Trois projets Python
 
 ## Vue d’ensemble
@@ -25,6 +31,14 @@ Chaque projet illustre des compétences appliquées en **analyse de données**, 
 
 ### **Résultats**
 
+* **Fichier d’entrée :**
+
+  ```
+  cours/Python/ADN/DNAFile.txt
+  ```
+
+  Ce fichier contient l’ensemble des séquences ADN analysées.
+
 * **Exemple de sortie console :**
 
   ```text
@@ -32,8 +46,11 @@ Chaque projet illustre des compétences appliquées en **analyse de données**, 
     CG/GC count: 2, AT/TA count: 1, total pairs: 3
     CG/GC %: 66.67%, AT/TA %: 33.33%
   ```
+
 * **Visualisation :**
-  Un graphique en barres présentant, pour chaque séquence, le nombre de paires `CG/GC` et `AT/TA`.
+  Le graphique suivant illustre les comptages de paires pour chaque séquence.
+
+  ![Résultats de l’analyse ADN](ADN/resultats.png)
 
 ### **Commentaires / Analyse**
 
@@ -76,13 +93,19 @@ Clé calculée : 56
 IBAN final : FR56XXXXXXXXXXXXXX
 ```
 
-Le projet peut être étendu pour effectuer la **vérification automatique** des IBAN à l’aide d’API publiques telles que [ibanapi.com](https://ibanapi.com) ou [iban.fr](https://www.iban.fr).
+Des tests d’appel à une **API de validation IBAN** ont également été effectués :
+
+* **Requête valide (200 OK)**
+  ![IBAN valide](IBAN/valide.png)
+
+* **Requête invalide (400 Bad Request)**
+  ![IBAN invalide](IBAN/invalide.png)
 
 ### **Commentaires / Analyse**
 
 * **Forces :**
 
-  * Implémentation correcte de l’algorithme **mod97**, utilisé dans la norme IBAN.
+  * Implémentation correcte de l’algorithme **mod97**, conforme à la norme IBAN.
   * Structure de code claire et modulaire (lecture, conversion, calcul).
   * Préparation à une intégration graphique via une interface **Tkinter**.
 
@@ -163,3 +186,7 @@ Les prochaines étapes pourraient inclure :
 * Une **documentation et des tests unitaires**
 * L’intégration d’**API externes** ou d’interfaces graphiques pour une utilisation plus interactive
 
+---
+
+Souhaites-tu que j’ajoute également une courte **introduction générale** en haut (par exemple, présentant le contexte du cours Python et les objectifs pédagogiques du dossier) ?
+Je peux aussi t’ajouter la table des matières automatique du README si tu veux.
